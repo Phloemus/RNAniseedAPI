@@ -96,6 +96,7 @@ adata.obs["stages"] = pd.Categorical(obsTemp)
 
 ################################################################# END Adding the stages
 
+##COUCOU TEST LALA
 
 ## normalizations
 sc.pp.normalize_total(adata, target_sum=1e4)
